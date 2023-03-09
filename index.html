@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <title>Rushank's Portfolio</title>
+</head>
+
+<body>
+    <header>
+        <h1><span class="header-title">Rushank's Portfolio</span></h1>
+
+        <nav class="navbar">
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#Objective">Career Objective</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Projects">Projects</a></li>
+            <li><a href="#Contact">Contact</a></li>
+            <li><a href="CV_2023-03-09-075409.pdf" target="_blank">Resume</a></li>
+        </nav>
+
+        <div class="menu-icon" onClick="menuToggle(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+            <div class="bar4"></div>
+            <div class="bar5"></div>
+
+
+        </div>
+    </header>
+
+    <section id="Home">
+        <div class="self-introduction">
+            <span class="span-greet">Hey, my name is</span><br>
+            <span class="span-name">Rushank Patil</span><br>
+            <span class="span-desg">And I'm a Programmer</span>
+        </div>
+
+        <div class="self-img">
+            <img src="IMG_20221230_135624.jpg" alt="image"/>
+        </div>
+    </section>
+    <section>
+        <section id="Objective">
+            <h1 class="sub-title">Career Objective</h1>
+            <p class="about-p">
+           <h3>To work in an environment of growth and excellence, giving my loyal contribution and to
+            explore and enhance my skills.</h3> 
+            </p>
+            <ul>
+        <li><span>PROFILE AT GLANCE</span><br>
+            <ul style="list-style-type: lower-roman;">
+        <li> Translating work into Ambition and Action giving Positive edge to mywork.<br></li>
+        <li>Like to think alot if something comes new.<br></li>
+        <li>Determined and Positive attitude towards work.<br></li>
+        <li> Optimistic towards life and welcoming towards new experiences.</li>
+        </ul>
+        </li>
+         </ul>
+        </section>
+    </section>
+    <section id="About">
+        <div class="about-container">
+
+            <div class="about-row">
+                <div class="about-col">
+                    <h1 class="sub-title">About Me</h1>
+                    <p class="about-p">Hey, my name is Rushank Patil and I'm a programer. Right now I'm completing my BE Computer Science and Engineering Degree at B.M.I.T Solapur. I'm highly motivated and eager to learn new skills. I have ability to produce best result in pressure situation. I have ability to work as individual as well as in a group.</p>
+                    
+                    <div class="tab-titles">
+                        <p class="tab-links  active-link" onClick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onClick="opentab('education')">Education</p>
+                    </div>
+
+                    <div id="skills" class="tab-contents active-tab">
+                        <ul>
+                            <li><span>Front-End</span><br>HTML, CSS, JavaScript, React.Js & Bootstrap</li>
+                            <li><span>Database</span><br>MongoDB & Mysql</li>
+                            <li><span>Back-End</span><br>Java, Python</li>
+                            <li><span>Development</span><br>VS Code & Netbeans</li>
+                            <li><span>Soft skills</span><br>Problem Solving, Team Work, Good English Communication & Quick Grasping</li>
+                        </ul>
+                    </div>
+
+                    <div id="education" class="tab-contents">
+                        <ul>
+                            <li><span>Ongoing</span><br><a  href=Screenshot_20230305_214249.png>Bachelor of Computer Science & Engineering from B.M.I.T Solapur</a></li>
+                            <li><span>2020</span><br><a href="">HSC from H.D jr college Solapur</a></li>
+                            <li><span>2018</span><br><a href="">SSC from S.S.E.M.H.S Solapur</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </section>
+
+    <section id="Projects">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="card-container">
+            <div class="cards" id="card1">
+                <span>Portfolio</span>
+                <a href="#Home"   target="_blank"><Button>View Project </Button></a>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="Contact">
+        <h1 class="sub-title"> Contact </h1>
+        <div class="contact-container">
+            <div class="contact-me">
+                <div class="p-info">
+                    <div class="p-box">
+                        <span>rushank2002@gmail.com</span>
+                    </div>
+                </div>
+                <div class="social">
+                    <a href="https://www.linkedin.com/in/rushank-patil-599b51221" target="_blank"><img src="linkedin-logo.png" alt="linkdin"></a>
+                </div>
+            </div>
+            <div class="contact-form">
+                <form action="https://api.sheetmonkey.io/form/g3cG279jGpuq7UutUegyCc" method="post">
+                    <div class="form">
+                        <input type="text" name="Name" placeholder="Name" required />
+                    </div>
+                    <div class="form">
+                        <input type="text" name="Email" placeholder="Email" required />
+                    </div>
+                    <div class="form">
+                        <input type="text" name="Message" placeholder="Message" required />
+                    </div>
+                        <input type="hidden" name="Date" value="x-sheetmonkey-current-date-time">
+                        <input type="hidden" name="x-sheetmonkey-redirect">
+                    <div class="form">
+                        <input type="submit" class="submit" value="Send">
+                    </div>   
+                </form>
+            </div>   
+        </div>
+    </section>
+
+    <footer>
+        <i>Created by RUSHANK PATIL</i>
+    </footer>
+   <script src="index.js"></script>
+</body>
+</html>
