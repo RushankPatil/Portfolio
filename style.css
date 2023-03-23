@@ -399,6 +399,7 @@ footer{
 
     .navbar a:hover {
         transform: translateX(5px);
+        color:black;
     }
 
     .open {
